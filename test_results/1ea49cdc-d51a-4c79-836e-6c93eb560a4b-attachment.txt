@@ -1,0 +1,20 @@
+
+Enter system
+
+Start test
+Start test_check_filters
+Current url https://1001puzzle.ru/
+Кликнули на кнопку, чтобы принять куки
+Ввели имя пользователя
+Ввели пароль
+Кликнули на кнопку, чтобы залогиниться
+Good value Кабинет
+Price+
+Ravensburger
+Good value RAVENSBURGER
+Скриншот выполнен
+Finish test_check_filters
+
+Finish test
+
+Exit system

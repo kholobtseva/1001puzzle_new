@@ -1,0 +1,584 @@
+
+-----
+Test: tests/test_buy_product.py::test_buy_product2 (call)
+Start time: 2025-01-31 23:27:35.076550
+Start name method: authorisation
+
+End time: 2025-01-31 23:27:55.151003
+End name method: authorisation
+URL: https://1001puzzle.ru/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product2 (call)
+Start time: 2025-01-31 23:27:55.151003
+Start name method: cleaning_cart
+
+
+-----
+Test: tests/test_buy_product.py::test_buy_product2 (call)
+Start time: 2025-01-31 23:27:55.152029
+Start name method: count_adding_products
+
+End time: 2025-01-31 23:28:00.168225
+End name method: count_adding_products
+URL: https://1001puzzle.ru/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product2 (call)
+Start time: 2025-01-31 23:28:04.390469
+Start name method: count_adding_products
+
+End time: 2025-01-31 23:28:09.398050
+End name method: count_adding_products
+URL: https://1001puzzle.ru/personal/cart/
+
+-----
+End time: 2025-01-31 23:28:17.454259
+End name method: cleaning_cart
+URL: https://1001puzzle.ru/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product2 (call)
+Start time: 2025-01-31 23:28:17.634917
+Start name method: manufacturers
+
+End time: 2025-01-31 23:28:20.908876
+End name method: manufacturers
+URL: https://1001puzzle.ru/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product2 (call)
+Start time: 2025-01-31 23:28:20.908876
+Start name method: go_to_manufactures
+
+End time: 2025-01-31 23:28:25.053525
+End name method: go_to_manufactures
+URL: https://1001puzzle.ru/pazly/proizvoditeli/winning_moves/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product2 (call)
+Start time: 2025-01-31 23:28:25.053525
+Start name method: dict_of_id
+
+End time: 2025-01-31 23:28:25.284832
+End name method: dict_of_id
+URL: https://1001puzzle.ru/pazly/proizvoditeli/winning_moves/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product2 (call)
+Start time: 2025-01-31 23:28:25.284832
+Start name method: add_product_to_cart
+
+End time: 2025-01-31 23:28:29.168777
+End name method: add_product_to_cart
+URL: https://1001puzzle.ru/pazly/proizvoditeli/winning_moves/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product3 (call)
+Start time: 2025-01-31 23:28:38.368072
+Start name method: authorisation
+
+End time: 2025-01-31 23:28:58.577283
+End name method: authorisation
+URL: https://1001puzzle.ru/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product3 (call)
+Start time: 2025-01-31 23:28:58.578284
+Start name method: cleaning_cart
+
+
+-----
+Test: tests/test_buy_product.py::test_buy_product3 (call)
+Start time: 2025-01-31 23:28:58.578284
+Start name method: count_adding_products
+
+End time: 2025-01-31 23:29:03.594583
+End name method: count_adding_products
+URL: https://1001puzzle.ru/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product3 (call)
+Start time: 2025-01-31 23:29:07.684442
+Start name method: count_adding_products
+
+End time: 2025-01-31 23:29:12.707560
+End name method: count_adding_products
+URL: https://1001puzzle.ru/personal/cart/
+
+-----
+End time: 2025-01-31 23:29:16.747148
+End name method: cleaning_cart
+URL: https://1001puzzle.ru/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product3 (call)
+Start time: 2025-01-31 23:29:16.874359
+Start name method: manufacturers
+
+End time: 2025-01-31 23:29:20.477916
+End name method: manufacturers
+URL: https://1001puzzle.ru/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product3 (call)
+Start time: 2025-01-31 23:29:20.477916
+Start name method: go_to_manufactures
+
+End time: 2025-01-31 23:29:21.669225
+End name method: go_to_manufactures
+URL: https://1001puzzle.ru/pazly/proizvoditeli/eurographics/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product3 (call)
+Start time: 2025-01-31 23:29:21.669225
+Start name method: dict_of_id
+
+End time: 2025-01-31 23:29:24.510346
+End name method: dict_of_id
+URL: https://1001puzzle.ru/pazly/proizvoditeli/eurographics/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product3 (call)
+Start time: 2025-01-31 23:29:24.510346
+Start name method: add_product_to_cart
+
+End time: 2025-01-31 23:29:28.069227
+End name method: add_product_to_cart
+URL: https://1001puzzle.ru/pazly/proizvoditeli/eurographics/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product3 (call)
+Start time: 2025-01-31 23:29:28.069227
+Start name method: add_product_to_cart
+
+End time: 2025-01-31 23:29:31.559880
+End name method: add_product_to_cart
+URL: https://1001puzzle.ru/pazly/proizvoditeli/eurographics/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product3 (call)
+Start time: 2025-01-31 23:29:31.559880
+Start name method: add_product_to_cart
+
+End time: 2025-01-31 23:29:35.127475
+End name method: add_product_to_cart
+URL: https://1001puzzle.ru/pazly/proizvoditeli/eurographics/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product3 (call)
+Start time: 2025-01-31 23:29:35.127475
+Start name method: input_information
+
+End time: 2025-01-31 23:29:37.653722
+End name method: input_information
+URL: https://1001puzzle.ru/personal/private/?
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product3 (call)
+Start time: 2025-01-31 23:30:09.670943
+Start name method: payment
+
+End time: 2025-01-31 23:30:09.686601
+End name method: payment
+URL: https://1001puzzle.ru/personal/order/make/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product3 (call)
+Start time: 2025-01-31 23:30:09.686601
+Start name method: check_contacts
+
+
+-----
+Test: tests/test_buy_product.py::test_buy_product3 (call)
+Start time: 2025-01-31 23:30:09.830656
+Start name method: cleaning_cart
+
+
+-----
+Test: tests/test_buy_product.py::test_buy_product3 (call)
+Start time: 2025-01-31 23:30:09.830656
+Start name method: count_adding_products
+
+End time: 2025-01-31 23:30:14.856678
+End name method: count_adding_products
+URL: https://1001puzzle.ru/personal/order/make/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product3 (call)
+Start time: 2025-01-31 23:30:19.036545
+Start name method: count_adding_products
+
+End time: 2025-01-31 23:30:24.055091
+End name method: count_adding_products
+URL: https://1001puzzle.ru/personal/cart/
+
+-----
+End time: 2025-01-31 23:30:31.203928
+End name method: cleaning_cart
+URL: https://1001puzzle.ru/personal/cart/
+
+-----
+End time: 2025-01-31 23:30:31.203928
+End name method: finish
+URL: https://1001puzzle.ru/personal/cart/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product1 (call)
+Start time: 2025-01-31 23:30:41.961790
+Start name method: authorisation
+
+End time: 2025-01-31 23:31:01.691559
+End name method: authorisation
+URL: https://1001puzzle.ru/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product1 (call)
+Start time: 2025-01-31 23:31:01.691559
+Start name method: cleaning_cart
+
+
+-----
+Test: tests/test_buy_product.py::test_buy_product1 (call)
+Start time: 2025-01-31 23:31:01.692559
+Start name method: count_adding_products
+
+End time: 2025-01-31 23:31:06.701180
+End name method: count_adding_products
+URL: https://1001puzzle.ru/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product1 (call)
+Start time: 2025-01-31 23:31:06.816479
+Start name method: manufacturers
+
+End time: 2025-01-31 23:31:07.075374
+End name method: manufacturers
+URL: https://1001puzzle.ru/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product1 (call)
+Start time: 2025-01-31 23:31:07.075374
+Start name method: go_to_manufactures
+
+End time: 2025-01-31 23:31:08.250133
+End name method: go_to_manufactures
+URL: https://1001puzzle.ru/pazly/proizvoditeli/anatolian/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product1 (call)
+Start time: 2025-01-31 23:31:08.251134
+Start name method: dict_of_id
+
+End time: 2025-01-31 23:31:10.910780
+End name method: dict_of_id
+URL: https://1001puzzle.ru/pazly/proizvoditeli/anatolian/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product1 (call)
+Start time: 2025-01-31 23:31:10.910780
+Start name method: add_product_to_cart
+
+End time: 2025-01-31 23:31:14.423405
+End name method: add_product_to_cart
+URL: https://1001puzzle.ru/pazly/proizvoditeli/anatolian/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product1 (call)
+Start time: 2025-01-31 23:31:14.423405
+Start name method: add_product_to_cart
+
+End time: 2025-01-31 23:31:17.974843
+End name method: add_product_to_cart
+URL: https://1001puzzle.ru/pazly/proizvoditeli/anatolian/
+
+-----
+
+-----
+Test: tests/test_buy_product.py::test_buy_product1 (call)
+Start time: 2025-01-31 23:31:17.974843
+Start name method: add_product_to_cart
+
+End time: 2025-01-31 23:31:21.494768
+End name method: add_product_to_cart
+URL: https://1001puzzle.ru/pazly/proizvoditeli/anatolian/
+
+-----
+
+-----
+Test: tests/test_cart.py::test_cart (call)
+Start time: 2025-01-31 23:31:31.750050
+Start name method: authorisation
+
+End time: 2025-01-31 23:31:50.559605
+End name method: authorisation
+URL: https://1001puzzle.ru/
+
+-----
+
+-----
+Test: tests/test_cart.py::test_cart (call)
+Start time: 2025-01-31 23:31:53.242869
+Start name method: manufacturers
+
+End time: 2025-01-31 23:31:53.495126
+End name method: manufacturers
+URL: https://1001puzzle.ru/
+
+-----
+
+-----
+Test: tests/test_cart.py::test_cart (call)
+Start time: 2025-01-31 23:31:53.495126
+Start name method: go_to_manufactures
+
+End time: 2025-01-31 23:31:54.604295
+End name method: go_to_manufactures
+URL: https://1001puzzle.ru/pazly/proizvoditeli/anatolian/
+
+-----
+
+-----
+Test: tests/test_cart.py::test_cart (call)
+Start time: 2025-01-31 23:31:54.605325
+Start name method: dict_of_products
+
+End time: 2025-01-31 23:31:56.623587
+End name method: dict_of_products
+URL: https://1001puzzle.ru/pazly/proizvoditeli/anatolian/
+
+-----
+
+-----
+Test: tests/test_cart.py::test_cart (call)
+Start time: 2025-01-31 23:31:56.623587
+Start name method: get_to_cart
+
+End time: 2025-01-31 23:31:57.552216
+End name method: get_to_cart
+URL: https://1001puzzle.ru/personal/cart/
+
+-----
+
+-----
+Test: tests/test_cart.py::test_cart (call)
+Start time: 2025-01-31 23:31:58.597198
+Start name method: products_in_cart
+
+End time: 2025-01-31 23:31:58.675352
+End name method: products_in_cart
+URL: https://1001puzzle.ru/personal/cart/
+
+-----
+
+-----
+Test: tests/test_cart.py::test_cart (call)
+Start time: 2025-01-31 23:31:58.675352
+Start name method: get_cart_total_price
+
+End time: 2025-01-31 23:31:58.690980
+End name method: get_cart_total_price
+URL: https://1001puzzle.ru/personal/cart/
+
+-----
+
+-----
+Test: tests/test_cart.py::test_cart (call)
+Start time: 2025-01-31 23:31:58.706574
+Start name method: get_cart_total_weight
+
+End time: 2025-01-31 23:31:58.722198
+End name method: get_cart_total_weight
+URL: https://1001puzzle.ru/personal/cart/
+
+-----
+
+-----
+Test: tests/test_cart.py::test_cart (call)
+Start time: 2025-01-31 23:31:58.722198
+Start name method: count_cart_total_price
+
+End time: 2025-01-31 23:31:58.737823
+End name method: count_cart_total_price
+URL: https://1001puzzle.ru/personal/cart/
+
+-----
+
+-----
+Test: tests/test_cart.py::test_cart (call)
+Start time: 2025-01-31 23:31:58.737823
+Start name method: count_cart_total_weight
+
+End time: 2025-01-31 23:31:58.737823
+End name method: count_cart_total_weight
+URL: https://1001puzzle.ru/personal/cart/
+
+-----
+
+-----
+Test: tests/test_check_filters.py::test_check_filters (call)
+Start time: 2025-01-31 23:32:08.084316
+Start name method: authorisation
+
+End time: 2025-01-31 23:32:30.548583
+End name method: authorisation
+URL: https://1001puzzle.ru/
+
+-----
+
+-----
+Test: tests/test_check_filters.py::test_check_filters (call)
+Start time: 2025-01-31 23:32:31.223399
+Start name method: manufacturers
+
+End time: 2025-01-31 23:32:31.494707
+End name method: manufacturers
+URL: https://1001puzzle.ru/
+
+-----
+
+-----
+Test: tests/test_check_filters.py::test_check_filters (call)
+Start time: 2025-01-31 23:32:31.494707
+Start name method: go_to_manufactures
+
+End time: 2025-01-31 23:32:32.527148
+End name method: go_to_manufactures
+URL: https://1001puzzle.ru/pazly/proizvoditeli/ravensburger/?price_to=2152
+
+-----
+
+-----
+Test: tests/test_check_filters.py::test_check_filters (call)
+Start time: 2025-01-31 23:32:32.527148
+Start name method: check_filters
+
+
+-----
+Test: tests/test_check_filters.py::test_check_filters (call)
+Start time: 2025-01-31 23:32:34.809896
+Start name method: wait_for_filter_update
+
+End time: 2025-01-31 23:32:34.833187
+End name method: wait_for_filter_update
+URL: https://1001puzzle.ru/pazly/proizvoditeli/ravensburger/?detaley_list=1_000&puzzle_tema=peyzazhi&price_to=2152
+
+-----
+
+-----
+Test: tests/test_check_filters.py::test_check_filters (call)
+Start time: 2025-01-31 23:32:36.969521
+Start name method: wait_for_filter_update
+
+End time: 2025-01-31 23:32:36.983122
+End name method: wait_for_filter_update
+URL: https://1001puzzle.ru/pazly/proizvoditeli/ravensburger/?detaley_list=1_000&puzzle_tema=peyzazhi&price_to=2152&peyzazh=gornyy
+
+-----
+
+-----
+Test: tests/test_contacts.py::test_contacts (call)
+Start time: 2025-01-31 23:33:08.384578
+Start name method: authorisation
+
+End time: 2025-01-31 23:33:27.359739
+End name method: authorisation
+URL: https://1001puzzle.ru/
+
+-----
+
+-----
+Test: tests/test_contacts.py::test_contacts (call)
+Start time: 2025-01-31 23:33:28.347580
+Start name method: check_contacts
+
+End time: 2025-01-31 23:33:28.696670
+End name method: check_contacts
+URL: https://1001puzzle.ru/contacts/
+
+-----
+
+-----
+Test: tests/test_contacts.py::test_contacts (call)
+Start time: 2025-01-31 23:33:28.696670
+Start name method: cleaning_cart
+
+
+-----
+Test: tests/test_contacts.py::test_contacts (call)
+Start time: 2025-01-31 23:33:28.696670
+Start name method: count_adding_products
+
+End time: 2025-01-31 23:33:33.705038
+End name method: count_adding_products
+URL: https://1001puzzle.ru/contacts/
+
+-----
+
+-----
+Test: tests/test_contacts.py::test_contacts (call)
+Start time: 2025-01-31 23:33:37.773934
+Start name method: count_adding_products
+
+End time: 2025-01-31 23:33:42.797336
+End name method: count_adding_products
+URL: https://1001puzzle.ru/personal/cart/
+
+-----
+End time: 2025-01-31 23:33:49.755305
+End name method: cleaning_cart
+URL: https://1001puzzle.ru/contacts/
+
+-----
