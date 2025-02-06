@@ -18,7 +18,6 @@ def test_contacts(driver, setup_group, setup):
 
     print("Очищаем корзину после тестов")
     ct = Cart_page(driver)
-    ct.cleaning_cart()
     print("Очиcтили корзину после тестов")
 
 
