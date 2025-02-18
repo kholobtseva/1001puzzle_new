@@ -126,14 +126,14 @@ class Manufacturers_page(Base):
         return self.number_element().text
 
     def click_topic_filter(self):
-        time.sleep(3)
+        time.sleep(5)
         self.get_topic_filter().click()
 
     def click_combo_box_filter(self):
         self.get_combo_box_filter().click()
 
     def click_get_clarifying_filter(self):
-        time.sleep(3)
+        time.sleep(5)
         self.get_clarifying_filter().click()
 
     # Methods
@@ -312,7 +312,7 @@ class Manufacturers_page(Base):
 
             Logger.add_start_step(method="wait_for_filter_update")
 
-            wait = WebDriverWait(self.driver, 60)  # Уменьшили время ожидания для этого конкретного случая
+            wait = WebDriverWait(self.driver, 100)  # Уменьшили время ожидания для этого конкретного случая
             try:
                 wait.until(EC.invisibility_of_element_located(
                     (By.XPATH, f"//label[@for='{filter_label_for}']//span[@class='kombox-cnt']")))
@@ -327,7 +327,7 @@ class Manufacturers_page(Base):
 
             Logger.add_start_step(method="check_filters")
             try:
-                wait = WebDriverWait(self.driver, 30)
+                wait = WebDriverWait(self.driver, 100)
                 self.detailes_filter_click()
                 wait.until(EC.invisibility_of_element_located(
                     (By.XPATH, "//label[@for='arrFilter_228_2561098286']/span[@class='kombox-cnt']")))
@@ -337,7 +337,7 @@ class Manufacturers_page(Base):
 
                 try:
                     # Ожидание загрузки элемента
-                    wait = WebDriverWait(self.driver, 15)
+                    wait = WebDriverWait(self.driver, 30)
                     paysage_element = wait.until(EC.presence_of_element_located(
                         (By.CSS_SELECTOR, "li[data-id='peyzazh-191'] .kombox-filter-property-name")))
 
