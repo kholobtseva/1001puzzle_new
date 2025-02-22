@@ -79,15 +79,18 @@ class Manufacturers_page(Base):
         return self.cart_link().find_element(By.XPATH, self.number_element)
 
     def get_topic_filter(self):
-        WebDriverWait(self.driver, 20).until(EC.element_to_be_clickable((By.XPATH, self.topic_filter)))
+        WebDriverWait(self.driver, 60).until(EC.presence_of_element_located((By.XPATH, self.topic_filter)))
+        WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable((By.XPATH, self.topic_filter)))
         return self.driver.find_element(By.XPATH, self.topic_filter)
 
     def get_combo_box_filter(self):
-        WebDriverWait(self.driver, 20).until(EC.element_to_be_clickable((By.XPATH, self.combo_box_filter)))
+        WebDriverWait(self.driver, 60).until(EC.presence_of_element_located((By.XPATH, self.combo_box_filter)))
+        WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable((By.XPATH, self.combo_box_filter)))
         return self.driver.find_element(By.XPATH, self.combo_box_filter)
 
     def get_clarifying_filter(self):
-        WebDriverWait(self.driver, 20).until(EC.element_to_be_clickable((By.XPATH, self.clarifying_filter)))
+        WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable((By.XPATH, self.clarifying_filter)))
+        WebDriverWait(self.driver, 60).until(EC.presence_of_element_located((By.XPATH, self.clarifying_filter)))
         return self.driver.find_element(By.XPATH, self.clarifying_filter)
 
     # Actions
@@ -126,14 +129,12 @@ class Manufacturers_page(Base):
         return self.number_element().text
 
     def click_topic_filter(self):
-        time.sleep(5)
         self.get_topic_filter().click()
 
     def click_combo_box_filter(self):
         self.get_combo_box_filter().click()
 
     def click_get_clarifying_filter(self):
-        time.sleep(5)
         self.get_clarifying_filter().click()
 
     # Methods
@@ -275,7 +276,7 @@ class Manufacturers_page(Base):
                     initial_count = element.text  # Запоминаем начальное значение
                     print(f"Начальное количество товаров в корзине: {initial_count}")
 
-                    WebDriverWait(self.driver, 30, poll_frequency=1).until(
+                    WebDriverWait(self.driver, 60, poll_frequency=1).until(
                         lambda driver: driver.find_element(*locator).text != initial_count
                     )
                     updated_element = self.driver.find_element(*locator)
@@ -312,13 +313,13 @@ class Manufacturers_page(Base):
 
             Logger.add_start_step(method="wait_for_filter_update")
 
-            wait = WebDriverWait(self.driver, 100)  # Уменьшили время ожидания для этого конкретного случая
+            wait = WebDriverWait(self.driver, 100)
             try:
                 wait.until(EC.invisibility_of_element_located(
                     (By.XPATH, f"//label[@for='{filter_label_for}']//span[@class='kombox-cnt']")))
             except TimeoutException:
                 print(f"Таймаут ожидания: span внутри label с for='{filter_label_for}' не стал невидимым.")
-                self.get_screenshot()  # Сделайте скриншот для анализа
+                self.get_screenshot()
             Logger.add_end_step(url=self.driver.current_url, method="wait_for_filter_update")
 
     def check_filters(self):
@@ -337,7 +338,7 @@ class Manufacturers_page(Base):
 
                 try:
                     # Ожидание загрузки элемента
-                    wait = WebDriverWait(self.driver, 30)
+                    wait = WebDriverWait(self.driver, 60)
                     paysage_element = wait.until(EC.presence_of_element_located(
                         (By.CSS_SELECTOR, "li[data-id='peyzazh-191'] .kombox-filter-property-name")))
 
@@ -356,5 +357,5 @@ class Manufacturers_page(Base):
                     return False
             except TimeoutException:
                 print("Таймаут ожидания превышен.")
-                self.get_screenshot()  # Сделайте скриншот для анализа ошибки
+                self.get_screenshot()
             Logger.add_end_step(url=self.driver.current_url, method="check_filters")
