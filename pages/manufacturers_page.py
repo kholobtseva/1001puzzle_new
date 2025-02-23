@@ -123,6 +123,7 @@ class Manufacturers_page(Base):
         self.product_add_to_cart(id, id_bx).click()
 
     def detailes_filter_click(self):
+
         self.get_detailes_filter().click()
 
     def number_text(self):
@@ -329,9 +330,14 @@ class Manufacturers_page(Base):
             Logger.add_start_step(method="check_filters")
             try:
                 wait = WebDriverWait(self.driver, 100)
+                wait.until(EC.presence_of_element_located(
+                    (By.XPATH, self.detailes_filter)))
                 self.detailes_filter_click()
                 wait.until(EC.invisibility_of_element_located(
                     (By.XPATH, "//label[@for='arrFilter_228_2561098286']/span[@class='kombox-cnt']")))
+                wait.until(EC.element_to_be_clickable(
+                    (By.XPATH, self.topic_filter)))
+
                 self.click_topic_filter()
                 self.wait_for_filter_update("arrFilter_228_2561098286")
                 self.driver.execute_script("window.scrollTo(0, 600)")
