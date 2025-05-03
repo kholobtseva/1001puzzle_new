@@ -11,8 +11,8 @@ class Login_page(Base):
     """ Класс содержащий локаторы и методы для формы Авторизации"""
 
     url = 'https://1001puzzle.ru/'
-    name = '************'
-    password = '*******'
+    name = 'xxxxx@gmail.com'
+    password = '************'
 
     def __init__(self, driver):
         super().__init__(driver)
@@ -104,7 +104,7 @@ class Login_page(Base):
             self.driver.maximize_window()
             self.get_current_url()
             self.accept_cookies()
-            time.sleep(10)
+            time.sleep(5)
             self.get_into_click()
             try:
                 self.click_email_enter()

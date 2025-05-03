@@ -350,6 +350,7 @@ class Manufacturers_page(Base):
 
                     # Клик по элементу с помощью JavaScript
                     self.driver.execute_script("arguments[0].parentNode.click();", paysage_element)  # Click on parent <div>
+                    time.sleep(5)
                     self.click_get_clarifying_filter()
                     self.wait_for_filter_update("arrFilter_191_3622229225")
                     self.driver.execute_script("window.scrollTo(0, -600)")

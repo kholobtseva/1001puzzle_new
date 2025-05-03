@@ -115,6 +115,7 @@ class Cart_page(Base):
             Logger.add_end_step(url=self.driver.current_url, method="products_in_cart")
             return products_in_cart
 
+
     def cleaning_cart(self):
         with allure.step("Cleaning cart"):
             Logger.add_start_step(method="cleaning_cart")

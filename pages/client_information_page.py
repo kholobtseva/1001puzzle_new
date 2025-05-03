@@ -90,6 +90,7 @@ class Client_information_page(Base):
 
     # Methods
 
+
     def input_information(self):
         with allure.step("Input information about a client"):
             Logger.add_start_step(method="input_information")
