@@ -1,2 +1,40 @@
-This project is auto testing of the online store 1001puzzle (https://1001puzzle.ru/) 
-Python + Selenium + Pytest + Allure
+# 🧩 Автоматизированное тестирование интернет-магазина 1001Puzzle
+
+![Python](https://img.shields.io/badge/Python-3.9+-blue)
+![Selenium](https://img.shields.io/badge/Selenium-4.0+-green)
+![Pytest](https://img.shields.io/badge/Pytest-7.0+-yellow)
+![Allure](https://img.shields.io/badge/Allure_Reports-2.0+-orange)
+
+Проект автоматизированного тестирования UI интернет-магазина пазлов [1001Puzzle](https://1001puzzle.ru/) с использованием современного стека технологий.
+
+## 🚀 Особенности проекта
+
+- **Полное покрытие ключевых сценариев** интернет-магазина
+- **Page Object Pattern** - поддерживаемая архитектура
+- **Детальное логирование** каждого шага тестов
+- **Автоматические скриншоты** - для подтверждения прохождения тестов
+- **Интеграция с Allure** для красивых отчетов
+
+## 📋 Тестовые сценарии
+
+### 🛒 Тесты корзины и покупок
+- **`test_buy_product1`** - Добавление 3 товаров в корзину
+- **`test_buy_product2`** - Добавление товара от конкретного производителя  
+- **`test_buy_product3`** - Полный цикл покупки с оформлением заказа
+- **`test_cart`** - Проверка расчетов корзины (стоимость, вес)
+
+### 🔍 Тесты функциональности
+- **`test_check_filters`** - Проверка фильтров каталога
+- **`test_contacts`** - Проверка страницы контактов
+
+## ⚙️ Технологический стек
+
+- **Python 3.9+** - основной язык программирования
+- **Selenium WebDriver** - автоматизация браузера
+- **Pytest** - фреймворк для тестирования
+- **Allure Framework** - генерация отчетов
+- **Page Object Pattern** - архитектура тестов
+
+### 1. Клонирование репозитория
+git clone https://github.com/kholobtseva/1001puzzle_new.git
+cd 1001puzzle_new
