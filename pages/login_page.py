@@ -10,8 +10,8 @@ class Login_page(Base):
     """ Класс содержащий локаторы и методы для формы Авторизации"""
 
     url = 'https://1001puzzle.ru/'
-    name = 'xxxxx@gmail.com'
-    password = '2uRa3%bR'
+    name = '**********'
+    password = '******'
 
     def __init__(self, driver):
         super().__init__(driver)
