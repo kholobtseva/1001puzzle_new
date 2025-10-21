@@ -3,7 +3,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from base.base_class import Base
-import time
 from utilities.logger import Logger
 
 
@@ -11,8 +10,8 @@ class Login_page(Base):
     """ Класс содержащий локаторы и методы для формы Авторизации"""
 
     url = 'https://1001puzzle.ru/'
-    name = '*****************'
-    password = '************'
+    name = 'xxxxx@gmail.com'
+    password = '2uRa3%bR'
 
     def __init__(self, driver):
         super().__init__(driver)
@@ -20,7 +19,7 @@ class Login_page(Base):
 
     # Locators
 
-    enter_pick = "/html/body/div[2]/header/div/div[2]/ul/li[1]/a/span"
+    enter_pick = "//span[text()='Войти']"
     email_login_link = 'a[href="#auth_by_login"]'
     wait_for_login_form2 = "#auth_by_login"
     user_name = "USER_LOGIN_POPUP"
@@ -104,7 +103,6 @@ class Login_page(Base):
             self.driver.maximize_window()
             self.get_current_url()
             self.accept_cookies()
-            time.sleep(5)
             self.get_into_click()
             try:
                 self.click_email_enter()
